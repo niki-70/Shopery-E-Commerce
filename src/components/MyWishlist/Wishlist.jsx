@@ -5,16 +5,16 @@ function Wishlist() {
     <>
       <div className="my-20">
         <div className="text-center font-bold text-2xl">My Wishlist</div>
-        <div className="border border-gray-400 rounded-2xl  mx-20 ">
-          <div className="grid grid-cols-3 text-gray-400 my-5 justify-between  mx-40 px-10 text-lg">
+        <div className="border border-gray-400 rounded-2xl  mx-40 ">
+          <div className="grid grid-cols-3 text-gray-400 my-5 justify-between mx-10 text-lg">
             <p> Product</p>
             <p>Price</p>
             <p>Stock Status</p>
           </div>
 
-          <hr className="mx-40" />
+          <hr/>
 
-          <div className="grid grid-cols-3 mx-40 my-5 px-10 items-center ">
+          <div className="grid grid-cols-3 mx-10 my-2 items-center ">
             <div className="flex place-items-center">
               <img
                 src="src/assets/Images/productImg/Green Capsicum.png"
@@ -73,9 +73,9 @@ function Wishlist() {
             </div>
           </div>
 
-          <hr className="mx-40" />
+          <hr className="mx-10" />
 
-          <div className="grid grid-cols-3  mx-40 my-5 px-10 items-center ">
+          <div className="grid grid-cols-3   my-2 mx-10 items-center ">
             <div className="flex place-items-center">
               <img
                 src="src/assets/Images/productImg/Chinese Cabbage.png"
@@ -131,9 +131,9 @@ function Wishlist() {
             </div>
           </div>
 
-          <hr className="mx-40" />
+          <hr className="mx-10" />
 
-          <div className="grid grid-cols-3 mx-40 my-5 px-10 items-center ">
+          <div className="grid grid-cols-3  my-2 mx-10 items-center ">
             <div className="flex place-items-center">
               <img src="src/assets/Images/productImg/Mango.png" alt="" />
               <p className="text-lg">Fresh Sujapuri Mango</p>
@@ -187,7 +187,7 @@ function Wishlist() {
           </div>
           <hr />
 
-          <div className="flex place-items-center mx-40 my-5 px-10">
+          <div className="flex place-items-center mx-10 my-5">
             <p>Share:</p>
             <div className="group/fb mr-3 p-2 hover:bg-green-500 rounded-full">
               <svg
