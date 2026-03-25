@@ -1,4 +1,4 @@
-function ContactPage() {
+function Contact() {
   return (
     <>
       <div className="bg-gray-100 py-10">
@@ -85,4 +85,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage;
+export default Contact;

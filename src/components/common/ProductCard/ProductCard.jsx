@@ -1,12 +1,12 @@
-function ProductCard() {
+function ProductCard({name, price, image}) {
   return (
     <>
       <div className="productCard group/card relative h-2xl mt-7 bg-white w-max rounded border border-white transition duration-300 ease-in-out hover:border-green-700">
         <div className="productCardImg w-60 object-cover">
           <img
             className="productCardBg rounded w-full h-full self-center"
-            src="src/assets/Images/productImg/2099fb565ffbe623e9b927ae3be066c4f975d1fc.jpg"
-            alt=""
+            src={image}
+            alt={name}
           />
 
           <div className="absolute top-2.5 right-0 opacity-0 transition-opacity duration-300 group-hover/card:opacity-100">
@@ -25,8 +25,8 @@ function ProductCard() {
 
         <div className="productCardInfo flex justify-between p-2">
           <div>
-            <p className="mt-2.5 text-gray-600">Green Apple</p>
-            <h4 className="mb-2.5">$14.99</h4>
+            <p className="mt-2.5 text-gray-600">{name}</p>
+            <h4 className="mb-2.5">${price}</h4>
           </div>
 
           <div className="group/cart rounded-full p-2.5 transition duration-300 hover:bg-green-400 h-max">

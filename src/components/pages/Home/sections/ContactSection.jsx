@@ -3,7 +3,7 @@ import Button from "../../../common/Button/Button";
 function ContactSection() {
   return (
     <>
-      <div className="contactSection m-10 max-w-6xl max-auto grid    md:grid-cols-[350px_350px_auto] gap-6">
+      <div className="contactSection m-10 max-w-fit max-auto grid mx-auto md:grid-cols-[350px_350px_auto] gap-6">
         {/* Location Card */}
 
         <div className="border border-green-200  rounded mr-10 p-5 pr-0">
