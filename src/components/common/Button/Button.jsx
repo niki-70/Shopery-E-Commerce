@@ -6,6 +6,8 @@ const Button = ({ children, icon, variant = "green", wSmall }) => {
         green: "bg-green-600 text-white",
         white: "bg-white text-green-600",
         gray: "bg-gray-100 text-gray-500",
+        textblack: "bg-gray-200 text-black",
+        black: "bg-black text-white",
     };
 
     return (

@@ -13,6 +13,22 @@ import Contact from "./components/pages/Contact/Contact";
 import Wishlist from "./components/MyWishlist/Wishlist";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 import Home from "./components/pages/Home/Home";
+import CartTotal from "./components/ShoppingCart/CartTotal";
+import BillingInfo from "./components/Checkout/Sections/BillingInfo";
+import OrderSummery from "./components/Checkout/Sections/OrderSummery";
+import ShoppingCard from "./components/ShoppingCard/ShoppingCard";
+import Filters from "./components/Filters/Filters";
+import Auth from "./components/Auth/Auth";
+import CreateAccount from "./components/CreateAccount/CreateAccount";
+import UserPortal from "./components/UserPortal/UserPortal";
+import OrderHistory from "./components/OrderHistory/Sections/OrderHistory";
+import OrderDetail from "./components/OrderHistory/OrderDetails";
+import AccountSetting from "./components/Settings/Section/AccountSetting";
+import BillingAddress from "./components/Settings/Section/BillingAddress";
+import ChangePassword from "./components/Settings/ChangePassword";
+import Profile from "./components/Dashboard/Sections/Profile";
+import Address from "./components/Dashboard/Sections/Address";
+
 function App() {
   return (
     <>
@@ -32,6 +48,26 @@ function App() {
       <Contact />
       <Wishlist />
       <ShoppingCart />
+      <ProductModal/>
+      <ProductDiscription/>
+      <ContactPage/>
+      <Wishlist/>
+      <ShoppingCart/>
+      <CartTotal/>
+      <BillingInfo/>
+      <OrderSummery/>
+      <ShoppingCard/>
+      <Filters/>
+      <Auth/>
+      <CreateAccount/>
+      <UserPortal/>
+      <OrderHistory/>
+      <OrderDetail/>
+      <AccountSetting/>
+      <BillingAddress/>
+      <ChangePassword/>
+      <Profile/>
+      <Address/>
     </>
   );
 }
