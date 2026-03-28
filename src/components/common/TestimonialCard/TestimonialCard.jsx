@@ -1,4 +1,4 @@
-  function TestimonialCard() {
+  function TestimonialCard({name, message, pfp, type}) {
   return (
     <>
       <div className="testimonialCard w-max p-5 bg-white  rounded-xl mt-7 shadow-xl/20">
@@ -7,19 +7,17 @@
         </div>
         <div className="testimonialQuote w-98">
           <p className="text-gray-700 pb-2.5">
-            Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
-            Phasellus imperdiet elit eu magna dictum, bibendum cursus velit
-            sodales. Donec sed neque eget
+           {message}
           </p>
         </div>
         <div className="userDetail m-3.5 flex justify-between items-center">
           <div className="reviewer flex items-center gap-2.5">
             <div className="userProfile">
-              <img src="src/assets/Images/testimonials/Image.png" alt="" />
+              <img src={pfp} alt="" />
             </div>
             <div className="userName text-gray-400">
-              <h3>Robert Fox</h3>
-              <p>Customer</p>
+              <h3>{name}</h3>
+              <p>{type}</p>
             </div>
           </div>
           <div className="rating flex">

@@ -1,4 +1,6 @@
 import Button from "../common/Button/Button";
+import tags from "../../assets/Data/tags";
+
 function Filters() {
   return (
     <>
@@ -560,68 +562,14 @@ function Filters() {
           </svg>
         </div>
 
-        <div>
-          <div className="flex justify-between">
-            <div className="rounded-3xl px-2.5 py-2  bg-gray-300 active:bg-green-600 active:text-white ">
-              Healthy
+        <div className="flex justify-between items-center flex-wrap">
+          {tags.map((item) => {
+            return (
+            <div className="rounded-3xl px-2.5 py-2 m-0.5 bg-gray-300 active:bg-green-600 active:text-white ">
+              {item.name}
             </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Low fat
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Vegetarian
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="flex justify-between mt-3">
-            <div className="rounded-3xl px-2.5 py-2  bg-gray-300 active:bg-green-600 active:text-white ">
-              Kid foods
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Kid foods
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Bread
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="flex justify-between mt-3">
-            <div className="rounded-3xl px-2.5 py-2  bg-gray-300 active:bg-green-600 active:text-white ">
-              Meat
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Snacks
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Tiffin
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="flex justify-between mt-3">
-            <div className="rounded-3xl px-2.5 py-2  bg-gray-300 active:bg-green-600 active:text-white ">
-              launch
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Dinner
-            </div>
-            <div className="rounded-3xl px-2.5 py-2 bg-gray-300 active:bg-green-600 active:text-white ">
-              Breakfast
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="flex justify-between mt-3">
-            <div className="rounded-3xl px-2.5 py-2  bg-gray-300 active:bg-green-600 active:text-white ">
-              Fruit
-            </div>
-          </div>
+            )
+          })}
         </div>
 
         <div className="relative place-items-center mt-5">
@@ -629,7 +577,9 @@ function Filters() {
             <img src="src/assets/Images/Banner.png" alt="" />
           </div>
           <div className="absolute top-7">
-            <h2 className="mb-2.5 text-orange-500">79% <span className="text-black">Discount </span> </h2>
+            <h2 className="mb-2.5 text-orange-500 text-2xl">
+              79% <span className="text-black">Discount </span>{" "}
+            </h2>
             <p className="font-bold mb-3 ">on your first order</p>
             <Button
               wSmall
