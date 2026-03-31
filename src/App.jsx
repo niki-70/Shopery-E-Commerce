@@ -33,10 +33,14 @@ import Faqs from "./components/pages/Faqs/Faqs";
 import TestimonialSection from "./components/pages/Home/Sections/TestimonialSection";
 import ErrorPage from "./components/pages/ErrorPage/ErrorPage";
 import BlogCard from "./components/common/BlogCard/BlogCard";
+import Blogs from "./components/pages/Blogs/Blogs";
+import About from "./components/pages/About/About";
+import BlogPage from "./components/pages/Blogs/Sections/BlogPage";
 
 function App() {
   return (
     <>
+    <About />
       <TestimonialSection />
       <CategorySection />
       <ProductCard />
@@ -77,6 +81,10 @@ function App() {
       <Faqs />
       <ErrorPage />
       <BlogCard/>
+      <Blogs/>
+      <BlogPage/>
+
+
     </>
   );
 }
