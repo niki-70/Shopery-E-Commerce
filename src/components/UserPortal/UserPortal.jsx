@@ -1,7 +1,7 @@
 function UserPortal() {
   return (
     <>
-      <div className="min-h-screen bg-gray-100 p-6">
+      <div className="min-h-screen  p-10">
         <div className="flex gap-6">
           {/* Sidebar */}
 

@@ -119,12 +119,18 @@ function BillingInfo() {
         <hr className="mb-8" />
 
         <div className="mb-4.5">
-            <div className="text-2xl mb-4">Additional Info</div>
-             <div>
+          <div className="text-2xl mb-4">Additional Info</div>
+          <div>
             <p className="mb-1">
               Company Name <span>(optional)</span>
             </p>
-            <textarea className="p-8 pt-3 border text-lg tracking-w border-gray-300 rounded-md w-full" name="" id="" value="" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+            <textarea
+              className="p-8 pt-3 border text-lg tracking-w border-gray-300 rounded-md w-full"
+              name=""
+              id=""
+              value=""
+              placeholder="Notes about your order, e.g. special notes for delivery"
+            ></textarea>
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
+import UserPortal from "../UserPortal/UserPortal"; 
 function OrderDetail() {
   return (
-    <>
-      <div className="bg-gray-100 p-10">
+    <div className="container mx-auto flex">
+      <UserPortal/>
+      <div className=" p-10">
         <div className="max-w-6xl mx-auto p-6 bg-white rounded-xl shadow">
           <div className="flex justify-between items-center mb-6">
             <div>
@@ -119,7 +121,7 @@ function OrderDetail() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

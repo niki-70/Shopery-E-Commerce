@@ -83,7 +83,8 @@ const Feedback = ({ pfp, message, name }) => {
         </div>
       </div>
       <div className="text-gray-400 mt-4">{message}</div>
-      <hr className="my-5 text-gray-400" />
+      <hr className="my-5 text-gray-400"/>
+      
     </div>
   );
 };
