@@ -3,6 +3,7 @@ import productSections from '../../../../assets/Data/products'
 import ProductCard from '../../../common/ProductCard/ProductCard'
 import ProductList from '../../../common/ProductList/ProductList'
 import SaleCard from '../../../SaleCard/SaleCard'
+import sale from '../../../../assets/Data/sale'
 
 const ProductsSection = () => {
     return (
@@ -57,7 +58,10 @@ const ProductsSection = () => {
                             ))}
                         </div>
                     </div>
-                    <SaleCard />
+                    <SaleCard 
+                        saleName={sale.name}
+                        off={sale.off}
+                        />
                 </div>
             </div>
         </>

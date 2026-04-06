@@ -1,5 +1,5 @@
 const productSections = {
-    featured: [
+    featured: [ 
         {
             id: 1,
             name: "Green Apple",
