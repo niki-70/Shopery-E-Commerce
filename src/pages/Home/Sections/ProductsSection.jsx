@@ -1,9 +1,9 @@
 import React from 'react'
-import productSections from '../../../../assets/Data/products'
+import productSections from '../../../../Data/products'
 import ProductCard from '../../../common/ProductCard/ProductCard'
 import ProductList from '../../../common/ProductList/ProductList'
 import SaleCard from '../../../SaleCard/SaleCard'
-import sale from '../../../../assets/Data/sale'
+import sale from '../../../../Data/sale'
 
 const ProductsSection = () => {
     return (

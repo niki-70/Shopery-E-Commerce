@@ -1,4 +1,4 @@
-import feedback from "../../assets/Data/feedback";
+import feedback from "../../Data/feedback";
 import Feedback from "../common/Feedback/Feedback";
 
 function ProductDiscription() {

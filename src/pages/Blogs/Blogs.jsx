@@ -1,4 +1,4 @@
-import blogs from "../../../assets/Data/blogs";
+import blogs from "../../../Data/blogs";
 import BlogCard from "../../common/BlogCard/BlogCard";
 import Filters from "../../Filters/Filters";
 

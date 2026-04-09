@@ -1,5 +1,5 @@
 import Button from "../../../common/Button/Button";
-import comments from "../../../../assets/Data/comments";
+import comments from "../../../../Data/comments";
 import Comments from "../../../common/Comments/Comments";
 import Filters from "../../../Filters/Filters";
 

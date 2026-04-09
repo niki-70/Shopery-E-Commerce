@@ -1,5 +1,5 @@
 import React from 'react'
-import testimonial from '../../../../assets/Data/testimonial'
+import testimonial from '../../../../Data/testimonial'
 import TestimonialCard from '../../../common/TestimonialCard/TestimonialCard'
 
 const TestimonialSection = () => {

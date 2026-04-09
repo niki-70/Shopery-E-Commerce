@@ -1,5 +1,5 @@
 import Button from "../common/Button/Button";
-import tags from "../../assets/Data/tags";
+import tags from "../../Data/tags";
 
 function Filters() {
   return (
