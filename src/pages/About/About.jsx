@@ -1,4 +1,4 @@
-import Breadcrumb from "../../../components/common/Breadcrumb/Breadcrumb"
+// import Bread from "../../../components/common/Breadcrumb/Breadcrumb"
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-x-0 top-1/2 mx-auto w-full max-w-6xl -translate-y-1/2 px-6">
-          <Breadcrumb items={[{ label: "Home", href: "#" }, { label: "About" }]} />
+          {/* <Breadcrumb items={[{ label: "Home", href: "#" }, { label: "About" }]} /> */}
         </div>
       </section>
 

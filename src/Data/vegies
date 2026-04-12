@@ -1,0 +1,94 @@
+const vegies = [
+  {
+    id: 1,
+    name: "Big Potatos",
+    price: 14.99,
+    image: "src/assets/Images/productImg/potato.png",
+  },
+  {
+    id: 2,
+    name: "Chanise Cabbage",
+    price: 14.99,
+    image: "src/assets/Images/productImg/cabbage.png",
+  },
+  {
+    id: 3,
+    name: "Corn",
+    price: 14.99,
+    image: "src/assets/Images/productImg/corn.png",
+  },
+  {
+    id: 4,
+    name: "Egg Plant",
+    price: 14.99,
+    image: "src/assets/Images/productImg/Eggplant.png",
+  },
+  {
+    id: 5,
+    name: "Fresh Cauliflower",
+    price: 14.99,
+    image: "src/assets/Images/productImg/cauliflower.png",
+  },
+  {
+    id: 6,
+    name: "Green Apple",
+    price: 14.99,
+    image: "src/assets/Images/productImg/GreenApple.png",
+  },
+  {
+    id: 7,
+    name: "Green Capsicum",
+    price: 14.99,
+    image: "src/assets/Images/productImg/Green Capsicum.png",
+  },
+  {
+    id: 8,
+    name: "Green Chili",
+    price: 14.99,
+    image: "src/assets/Images/productImg/greenChili.png",
+  },
+  {
+    id: 9,
+    name: "Green Cucumber",
+    price: 14.99,
+    image: "src/assets/Images/productImg/cucumber.png",
+  },
+  {
+    id: 10,
+    name: "Green Littuce",
+    price: 14.99,
+    image: "src/assets/Images/productImg/greenLittuce.png",
+  },
+  {
+    id: 11,
+    name: "Ladies Finger",
+    price: 14.99,
+    image: "src/assets/Images/productImg/LadiesFinger.png",
+  },
+  {
+    id: 12,
+    name: "Red Capsicum",
+    price: 14.99,
+    image: "src/assets/Images/productImg/RedCapsicum.png",
+  },
+  {
+    id: 13,
+    name: "Red Chili",
+    price: 14.99,
+    image: "src/assets/Images/productImg/redChili.png",
+  },
+  {
+    id: 14,
+    name: "Red Tomato",
+    price: 14.99,
+    image: "src/assets/Images/productImg/redTomato.png",
+  },
+  {
+    id: 15,
+    name: "Fresh Mango",
+    price: 14.99,
+    image: "src/assets/Images/productImg/mangoo.png",
+  },
+];
+
+export default vegies;

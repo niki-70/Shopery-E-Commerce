@@ -29,7 +29,7 @@ function ProductCard({name, price, image}) {
             <h4 className="mb-2.5">${price}</h4>
           </div>
 
-          <div className="group/cart rounded-full p-2.5 transition duration-300 hover:bg-green-400 h-max">
+          <div className="group/cart rounded-full p-2.5 transition duration-300 hover:bg-green-600 h-max">
             <svg
               className="transition-colors duration-300 group-hover/cart:text-white"
               xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
+
+
 function Topbar(){
 // import Styles from "./Navbar.module.css";
+
 
   return (
     <div className="navbarSec mt-5 mr-12 mb-0 ml-12">
@@ -30,9 +34,15 @@ function Topbar(){
 
           <img src="src/assets/Images/icons/Devider.png" alt="" />
 
-          <div className="sign mr-3.5">
-            <p>Sign in / Sign up</p>
-          </div>
+          <span className="sign mr-3.5">
+            <Link className="" to="/login">
+            Sign in
+            </Link>
+             / 
+             <Link className="" to="/create">
+             Sign up
+             </Link>
+          </span>
         </div>
       </div>
     </div>

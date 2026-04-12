@@ -1,8 +1,7 @@
 function Profile() {
   return (
     <>
-      <div className="w-full">
-        <div className="bg-white shadow rounded-xl p-7 w-full text-center ">
+        <div className="bg-white shadow rounded-xl p-7 w-full text-center h-full ">
           <img
             src="src/assets/Images/Profile/profileImg1.png"
             alt="profile"
@@ -19,7 +18,6 @@ function Profile() {
             Edit Profile
           </button>
         </div>
-      </div>
     </>
   );
 }

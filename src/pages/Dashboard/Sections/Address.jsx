@@ -2,7 +2,7 @@ function Address() {
   return (
     <>
       <div className="w-full">
-        <div className="bg-white shadow rounded-xl p-6 w-full ">
+        <div className="bg-white shadow rounded-xl p-9 w-full h-full ">
           <p className="text-gray-400 text-lg uppercase mb-2">
             Billing Address
           </p>

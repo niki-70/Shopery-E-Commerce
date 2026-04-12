@@ -1,8 +1,14 @@
+import UserPortal from "../UserPortal/UserPortal";
+
 function OrderHistory() {
 
     return(
         <>
-        <div className="bg-white rounded-lg shadow p-6">
+              <div className="flex">
+        <div className="">
+          <UserPortal />
+        </div>
+        <div className="bg-white rounded-lg shadow p-6 w-full">
 
             {/* Title */}
 
@@ -129,6 +135,7 @@ function OrderHistory() {
                 </table>
             </div>
 
+        </div>
         </div>
         </>
     )

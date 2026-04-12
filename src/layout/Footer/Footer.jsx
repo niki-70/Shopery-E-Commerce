@@ -1,4 +1,5 @@
 import Button from "../../components/common/Button/Button";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -214,18 +215,18 @@ function Footer() {
                         alt=""
                       />
                       <div>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/Dashboard" >
                           My Account
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/OrderHistory">
                           Order History
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/ShoppingCart">
                           Shopping Cart
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="Wishlist">
                           Wishlist
-                        </p>
+                        </Link>
                       </div>
                     </div>
 
@@ -237,18 +238,18 @@ function Footer() {
                         alt=""
                       />
                       <div>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/contact">
                           Contact
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/Faqs">
                           Faqs
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
                           Terms & Conditions
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
                           Privecy Policy
-                        </p>
+                        </Link>
                       </div>
                     </div>
 
@@ -260,20 +261,44 @@ function Footer() {
                         alt=""
                       />
                       <div>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/about">
                           About
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="">
                           Shop
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="">
                           Product
-                        </p>
-                        <p className="text-gray-500 m-4 hover:text-white">
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white" to="/trackorder">
                           Track Order
-                        </p>
+                        </Link>
                       </div>
                     </div>
+
+                     <div>
+                      <h5 className="text-white mx-4 font-bold">Categories</h5>
+                      <img
+                        className="m-4"
+                        src="src/assets/Images/Line 14.png"
+                        alt=""
+                      />
+                      <div>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
+                          Fruit & Vegetables
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
+                          Meat & Fish
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
+                          Bread & Bakery
+                        </Link>
+                        <Link className="block text-gray-500 m-4 hover:text-white">
+                          Beauty & Health
+                        </Link>
+                      </div>
+                    </div>
+
                   </div>
 
                   <div>

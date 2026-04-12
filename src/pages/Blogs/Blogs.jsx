@@ -1,6 +1,6 @@
-import blogs from "../../../Data/blogs";
-import BlogCard from "../../common/BlogCard/BlogCard";
-import Filters from "../../Filters/Filters";
+import blogs from "../../Data/blogs";
+import BlogCard from "../../components/common/BlogCard/BlogCard";
+import Filters from "../../components/Filters/Filters";
 
 const Blogs = () => {
   return (
