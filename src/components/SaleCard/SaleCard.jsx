@@ -1,11 +1,12 @@
 import Button from "../common/Button/Button";
+import Image1 from "../../assets/Images/Image (1).png";
 
 function SaleCard({saleName, off}) {
   return (
     <>
       <div className="relative m-10 w-max place-items-center">
         <div className="w-full">
-          <img src="src/assets/Images/Image (1).png" alt="" />
+          <img src={Image1} alt="" />
         </div>
         <div className="absolute top-7">
           <p className="mb-2.5">{saleName}</p>

@@ -1,9 +1,10 @@
+import Vector5 from "../../../assets/Images/icons/Vector (5).png";
   function TestimonialCard({name, message, pfp, type}) {
   return (
     <>
       <div className="testimonialCard w-max p-5 bg-white  rounded-xl mt-7 shadow-xl/20">
         <div className="quoteIcon m-3.5">
-          <img src="src/assets/Images/icons/Vector (5).png" alt=""/>
+          <img src={Vector5} alt=""/>
         </div>
         <div className="testimonialQuote w-98">
           <p className="text-gray-700 pb-2.5">

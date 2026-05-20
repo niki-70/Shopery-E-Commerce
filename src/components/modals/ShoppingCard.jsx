@@ -1,3 +1,5 @@
+import Orange from "../../assets/Images/productImg/Orange.png";
+import GreenApple from "../../assets/Images/productImg/GreenApple.png";
 function ShoppingCard() {
   return (
     <>
@@ -10,7 +12,7 @@ function ShoppingCard() {
             <div className="flex place-items-center justify-between ">
               <div className="flex place-items-center">
                 <div>
-                  <img src="src/assets/Images/productImg/Orange.png" alt="" />
+                  <img src={Orange} alt="" />
                 </div>
 
                 <div>
@@ -65,7 +67,7 @@ function ShoppingCard() {
               <div className="flex place-items-center">
                 <div>
                   <img
-                    src="src/assets/Images/productImg/GreenApple.png"
+                    src={GreenApple}
                     alt=""
                   />
                 </div>

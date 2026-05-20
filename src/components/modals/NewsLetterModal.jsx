@@ -1,4 +1,5 @@
 import Button from "../common/Button/Button";
+import BG1 from "../../assets/Images/BG1.png";
 
 function NewsLetterModal() {
   return (
@@ -6,7 +7,7 @@ function NewsLetterModal() {
       <div className="grid place-items-center">
         <div className="flex bg-amber-100 rounded-2xl p-4">
           <div>
-            <img src="src/assets/Images/BG1.png" alt="" />
+            <img src={BG1} alt="" />
           </div>
           <div className="p-8 text-center">
             <div>

@@ -1,3 +1,6 @@
+import dealofthemonth from "../../../assets/Images/sections/dealofthemonth.png";
+import rightArrow from "../../../assets/images/icons/rightArrow.png";
+import dealofthemonth2 from "../../../assets/Images/sections/dealofthemonth2.png";
 
 import Button from '../../../components/common/Button/Button'
 
@@ -6,7 +9,7 @@ const DealOfTheMonth = () => {
         <>
             <div className="flex items-center justify-around bg-gray-100">
                 <div>
-                    <img src="src/assets/Images/sections/dealofthemonth.png" alt="" />
+                    <img src={dealofthemonth} alt="" />
                 </div>
                 <div className='flex flex-col text-center items-center'>
                     <p className='text-green-600 text-sm font-medium'>BEST DEALS</p>
@@ -30,12 +33,12 @@ const DealOfTheMonth = () => {
                             <p className='text-sm'>SECS</p>
                         </div>
                     </div>
-                    <Button icon={<img src="src/assets/images/icons/rightArrow.png" alt="" />}>
+                    <Button icon={<img src={rightArrow} alt="" />}>
                         Shop Now
                     </Button>
                 </div>
                 <div>
-                    <img src="src/assets/Images/sections/dealofthemonth2.png" alt="" />
+                    <img src={dealofthemonth2} alt="" />
 
                 </div>
             </div>

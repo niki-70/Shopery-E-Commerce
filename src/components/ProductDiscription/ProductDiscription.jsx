@@ -1,5 +1,6 @@
 import feedback from "../../Data/feedback";
 import Feedback from "../common/Feedback/Feedback";
+import videoImage from "../../assets/Images/video Image.png";
 
 function ProductDiscription() {
   return (
@@ -164,7 +165,7 @@ function ProductDiscription() {
               <div className="relative">
                 <img
                   className="mx-auto"
-                  src="src/assets/Images/video Image.png"
+                  src={videoImage}
                   alt=""
                 />
                 <div className="grid place-items-center w-full h-full">
@@ -302,7 +303,7 @@ function ProductDiscription() {
               <div className="relative">
                 <img
                   className="mx-auto"
-                  src="src/assets/Images/video Image.png"
+                  src={videoImage}
                   alt=""
                 />
                 <div className="grid place-items-center w-full h-full">

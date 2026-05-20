@@ -1,5 +1,6 @@
 import Button from "../common/Button/Button";
 import tags from "../../Data/tags";
+import Banner from "../../assets/Images/Banner.png";
 
 function Filters() {
   return (
@@ -574,7 +575,7 @@ function Filters() {
 
         <div className="relative place-items-center mt-5">
           <div className="">
-            <img src="src/assets/Images/Banner.png" alt="" />
+            <img src={Banner} alt="" />
           </div>
           <div className="absolute top-7">
             <h2 className="mb-2.5 text-orange-500 text-2xl">

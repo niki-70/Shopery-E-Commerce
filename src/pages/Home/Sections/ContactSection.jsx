@@ -1,4 +1,7 @@
 import Button from "../../../components/common/Button/Button";
+import MapPin1 from "../../../assets/Images/icons/Map Pin (1).png";
+import PhoneCall from "../../../assets/Images/icons/PhoneCall.png";
+import maiL1 from "../../../assets/Images/icons/maiL 1.png";
 
 function ContactSection() {
   return (
@@ -8,7 +11,7 @@ function ContactSection() {
 
         <div className="border border-green-200  rounded mr-10 p-5 pr-0">
           <div className="m-4 ml-0">
-            <img src="src/assets/Images/icons/Map Pin (1).png" alt="" />
+            <img src={MapPin1} alt="" />
           </div>
           <div>
             <h4 className="text-xl font-medium mb-3.5 tracking-wide">Our Location</h4>
@@ -22,7 +25,7 @@ function ContactSection() {
 
         <div className="border border-green-200 rounded mr-10 p-5">
           <div className=" m-4 ml-0">
-            <img src="src/assets/Images/icons/PhoneCall.png " alt="" />
+            <img src={PhoneCall} alt="" />
           </div>
           <div>
             <h4 className="text-xl font-medium mb-3.5 tracking-wide">Call Us 24/7</h4>
@@ -34,7 +37,7 @@ function ContactSection() {
 
         <div className="border border-green-200 rounded mr-10 p-5 ">
           <div className="m-4 ml-0">
-            <img src="src/assets/Images/icons/maiL 1.png" alt="" />
+            <img src={maiL1} alt="" />
           </div>
           <div>
             <div>

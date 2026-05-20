@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../constants/routes";
+import call from "../../../assets/Images/icons/call.png";
 
 const Navigation = () => {
   return (
@@ -28,7 +29,7 @@ const Navigation = () => {
           <div className="contactNo flex">
             <img
               className="contactImg w-5 h-5 mr-2.5"
-              src="src/assets/Images/icons/call.png"
+              src={call}
               alt=""
             />
             <h5 className="number text-white">(219) 555-0114</h5>

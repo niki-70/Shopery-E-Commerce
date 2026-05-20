@@ -1,9 +1,10 @@
+import profileImg1 from "../../../assets/Images/Profile/profileImg1.png";
 function Profile() {
   return (
     <>
         <div className="bg-white shadow rounded-xl p-7 w-full text-center h-full ">
           <img
-            src="src/assets/Images/Profile/profileImg1.png"
+            src={profileImg1}
             alt="profile"
             className="w-34 h-34 rounded-full object-cover mx-auto mb-4"
           />
