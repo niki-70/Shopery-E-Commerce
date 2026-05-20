@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../../components/common/Button/Button'
 import about from "../../../assets/Images/sections/about.png";
 import Check from "../../../assets/Images/icons/Check.png";
-import rightArrow from "../../../assets/images/icons/rightArrow.png";
+import rightArrow from "../../../assets/Images/icons/rightArrow.png";
 
 const AboutSection = () => {
     return (

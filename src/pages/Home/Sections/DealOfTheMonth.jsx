@@ -1,5 +1,5 @@
 import dealofthemonth from "../../../assets/Images/sections/dealofthemonth.png";
-import rightArrow from "../../../assets/images/icons/rightArrow.png";
+import rightArrow from "../../../assets/Images/icons/rightArrow.png";
 import dealofthemonth2 from "../../../assets/Images/sections/dealofthemonth2.png";
 
 import Button from '../../../components/common/Button/Button'

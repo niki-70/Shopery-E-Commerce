@@ -1,6 +1,6 @@
 import Button from "../../../components/common/Button/Button";
 import Image from "../../../assets/Images/Image.png";
-import rightArrow from "../../../assets/images/icons/rightArrow.png";
+import rightArrow from "../../../assets/Images/icons/rightArrow.png";
 
 function HeroSection(){
 
