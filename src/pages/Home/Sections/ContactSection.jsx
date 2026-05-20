@@ -1,7 +1,7 @@
 import Button from "../../../components/common/Button/Button";
 import MapPin1 from "../../../assets/Images/icons/Map Pin (1).png";
 import PhoneCall from "../../../assets/Images/icons/PhoneCall.png";
-import maiL1 from "../../../assets/Images/icons/maiL 1.png";
+import mail1 from "../../../assets/Images/icons/mail 1.png";
 
 function ContactSection() {
   return (
@@ -37,7 +37,7 @@ function ContactSection() {
 
         <div className="border border-green-200 rounded mr-10 p-5 ">
           <div className="m-4 ml-0">
-            <img src={maiL1} alt="" />
+            <img src={mail1} alt="" />
           </div>
           <div>
             <div>
