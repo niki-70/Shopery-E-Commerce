@@ -2,6 +2,11 @@ import Button from "../../../common/Button/Button";
 import comments from "../../../../Data/comments";
 import Comments from "../../../common/Comments/Comments";
 import Filters from "../../../Filters/Filters";
+import FrameImage from "../../../assets/Images/blogs/FrameImage.png";
+import profile from "../../../assets/Images/blogs/profile.png";
+import image from "../../../assets/Images/blogs/image.png";
+import image1 from "../../../assets/Images/blogs/image1.png";
+import Bannar from "../../../assets/Images/blogs/Bannar.png";
 
 function BlogPage() {
   return (
@@ -13,7 +18,7 @@ function BlogPage() {
           <div className="newsImg shadow-[0px_20px_50px 0p_rgba(0,0,0,0,0.08)]">
             <img
               className="w-full object-cover"
-              src="src/assets/Images/blogs/FrameImage.png"
+              src={FrameImage}
               alt=""
             />
           </div>
@@ -96,7 +101,7 @@ function BlogPage() {
             <div className="flex justify-between">
               <div className="flex">
                 <img
-                  src="src/assets/Images/blogs/profile.png"
+                  src={profile}
                   className="rounded-full w-15 mr-2"
                   alt=""
                 />
@@ -233,8 +238,8 @@ function BlogPage() {
           </div>
 
           <div className="flex py-5 gap-3">
-            <img src="src/assets/Images/blogs/image.png" alt="" />
-            <img src="src/assets/Images/blogs/image1.png" alt="" />
+            <img src={image} alt="" />
+            <img src={image1} alt="" />
           </div>
 
           <p className="text-gray-400 text-xl">
@@ -250,7 +255,7 @@ function BlogPage() {
 
         <div className="relative  w-fit">
           <div className="w-full">
-            <img src="src/assets/Images/blogs/Bannar.png" alt="" />
+            <img src={Bannar} alt="" />
           </div>
           <div>
             <div className="absolute top-15 left-20">

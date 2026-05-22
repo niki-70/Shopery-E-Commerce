@@ -1,3 +1,8 @@
+import a80883dc1ed057e28b4f1bee4e87ed572c7cf693 from "../../assets/Images/Teams/a80883dc1ed057e28b4f1bee4e87ed572c7cf693.jpg";
+import Vector from "../../assets/Images/icons/Vector.png";
+import Vector1 from "../../assets/Images/icons/Vector (1).png";
+import Vector2 from "../../assets/Images/icons/Vector (2).png";
+import Vector3 from "../../assets/Images/icons/Vector (3).png";
  function TeamCard() {
   return (
     <div className="group mt-7 bg-white w-max rounded border border-white overflow-hidden">
@@ -5,7 +10,7 @@
       <div className="relative w-80 h-72">
 
         <img
-          src="src/assets/Images/Teams/a80883dc1ed057e28b4f1bee4e87ed572c7cf693.jpg"
+          src={a80883dc1ed057e28b4f1bee4e87ed572c7cf693}
           alt=""
           className="w-full h-full object-cover"
         />
@@ -17,19 +22,19 @@
           <div className="flex gap-2">
 
             <div className="w-10 h-10 grid place-items-center rounded-full cursor-pointer hover:bg-green-500 transition">
-              <img src="src/assets/Images/icons/Vector.png" alt="" />
+              <img src={Vector} alt="" />
             </div>
 
             <div className="w-10 h-10 grid place-items-center rounded-full cursor-pointer hover:bg-green-500 transition">
-              <img src="src/assets/Images/icons/Vector (1).png" alt="" />
+              <img src={Vector1} alt="" />
             </div>
 
             <div className="w-10 h-10 grid place-items-center rounded-full cursor-pointer hover:bg-green-500 transition">
-              <img src="src/assets/Images/icons/Vector (2).png" alt="" />
+              <img src={Vector2} alt="" />
             </div>
 
             <div className="w-10 h-10 grid place-items-center rounded-full cursor-pointer hover:bg-green-500 transition">
-              <img src="src/assets/Images/icons/Vector (3).png" alt="" />
+              <img src={Vector3} alt="" />
             </div>
 
           </div>

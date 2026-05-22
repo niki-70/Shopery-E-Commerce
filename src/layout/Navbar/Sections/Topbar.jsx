@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../constants/routes";
+import MapPin from "../../../assets/Images/icons/Map Pin.png";
+import Devider from "../../../assets/Images/icons/Devider.png";
 
 
 function Topbar(){
@@ -11,7 +13,7 @@ function Topbar(){
       <div className="topBar pb-5 flex justify-between">
         <div className="rightTopBar flex ">
           <div className="map">
-            <img className="mapImg pr-1 " src="src/assets/Images/icons/Map Pin.png" alt="" />
+            <img className="mapImg pr-1 " src={MapPin} alt="" />
           </div>
           <div className="address oklch(87.2% 0.01 258.338) ">
             <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
@@ -33,7 +35,7 @@ function Topbar(){
             </select>
           </div>
 
-          <img src="src/assets/Images/icons/Devider.png" alt="" />
+          <img src={Devider} alt="" />
 
           <span className="sign mr-3.5">
             <Link className="" to={ROUTES.LOGIN}>

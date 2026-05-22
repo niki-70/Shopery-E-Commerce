@@ -1,3 +1,6 @@
+import MapPin2 from "../../assets/Images/icons/Map Pin (2).png";
+import Email from "../../assets/Images/icons/Email.png";
+import PhoneCall1 from "../../assets/Images/icons/PhoneCall (1).png";
 function Contact() {
   return (
     <>
@@ -7,7 +10,7 @@ function Contact() {
 
           <div className="bg-white col-span-1 shadow-md py-8 rounded-lg space-y-8">
             <div className="flex flex-col items-center justify-center px-12 text-center">
-              <img src="src/assets/Images/icons/Map Pin (2).png" alt="" />
+              <img src={MapPin2} alt="" />
               <p className="text-gray-600">
                 2715 Ash Dr. San Jose, South Dakota 83475
               </p>
@@ -16,7 +19,7 @@ function Contact() {
             <hr />
 
             <div className="flex flex-col items-center justify-center px-12 text-center">
-              <img src="src/assets/Images/icons/Email.png" alt="" />
+              <img src={Email} alt="" />
               <p className="text-gray-600">
                 Proxy@gmail.com <br />
                 Help.proxy@gmail.com
@@ -26,7 +29,7 @@ function Contact() {
             <hr />
 
             <div className="flex flex-col items-center justify-center px-12 text-center">
-              <img src="src/assets/Images/icons/PhoneCall (1).png" alt="" />
+              <img src={PhoneCall1} alt="" />
               <p className="text-gray-600">
                 (219) 555-0114 <br />
                 (164) 333-0487

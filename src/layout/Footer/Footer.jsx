@@ -1,6 +1,16 @@
 import Button from "../../components/common/Button/Button";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../constants/routes";
+import BG from "../../assets/Images/BG.png";
+import Logo from "../../assets/Images/logo/Logo.png";
+import Line14 from "../../assets/Images/Line 14.png";
+import AppStore from "../../assets/Images/icons/App Store.png";
+import GooglePlay from "../../assets/Images/icons/Google Play.png";
+import MethodApplePay from "../../assets/Images/icons/Method=ApplePay.png";
+import MethodVisa from "../../assets/Images/icons/Method=Visa.png";
+import MethodDiscover from "../../assets/Images/icons/Method=Discover.png";
+import MethodMastercard from "../../assets/Images/icons/Method=Mastercard.png";
+import Cart from "../../assets/Images/icons/Cart.png";
 
 function Footer() {
   return (
@@ -114,12 +124,12 @@ function Footer() {
         <div className="footer relative">
           <div className=" bg-gray-950">
             <div className="grid place-items-center">
-              <img src="src/assets/Images/BG.png" alt="" />
+              <img src={BG} alt="" />
               <div className="container">
                 <div className=" flex mx-auto justify-between">
                   <div>
                     <div>
-                      <img src="src/assets/Images/logo/Logo.png" alt="" />
+                      <img src={Logo} alt="" />
                       <p className="text-gray-500 hover:text-white">
                         Morbi cursus porttitor enim lobortis
                         <br></br> molestie. Duis gravida turpis dui, eget{" "}
@@ -212,7 +222,7 @@ function Footer() {
                       <h5 className="text-white mx-4 font-bold">My Account</h5>
                       <img
                         className="m-4"
-                        src="src/assets/Images/Line 14.png"
+                        src={Line14}
                         alt=""
                       />
                       <div>
@@ -235,7 +245,7 @@ function Footer() {
                       <h5 className="text-white mx-4 font-bold">Helps</h5>
                       <img
                         className="m-4"
-                        src="src/assets/Images/Line 14.png"
+                        src={Line14}
                         alt=""
                       />
                       <div>
@@ -258,7 +268,7 @@ function Footer() {
                       <h5 className="text-white mx-4 font-bold">Proxy</h5>
                       <img
                         className="m-4"
-                        src="src/assets/Images/Line 14.png"
+                        src={Line14}
                         alt=""
                       />
                       <div>
@@ -281,7 +291,7 @@ function Footer() {
                       <h5 className="text-white mx-4 font-bold">Categories</h5>
                       <img
                         className="m-4"
-                        src="src/assets/Images/Line 14.png"
+                        src={Line14}
                         alt=""
                       />
                       <div>
@@ -310,11 +320,11 @@ function Footer() {
                     <div className="flex mt-8">
                       <img
                         className="mr-3"
-                        src="src/assets/Images/icons/App Store.png"
+                        src={AppStore}
                         alt=""
                       />
                       <img
-                        src="src/assets/Images/icons/Google Play.png"
+                        src={GooglePlay}
                         alt=""
                       />
                     </div>
@@ -336,19 +346,19 @@ function Footer() {
                   </p>
                   <div className="flex">
                     <img
-                      src="src/assets/Images/icons/Method=ApplePay.png"
+                      src={MethodApplePay}
                       alt=""
                     />
-                    <img src="src/assets/Images/icons/Method=Visa.png" alt="" />
+                    <img src={MethodVisa} alt="" />
                     <img
-                      src="src/assets/Images/icons/Method=Discover.png"
+                      src={MethodDiscover}
                       alt=""
                     />
                     <img
-                      src="src/assets/Images/icons/Method=Mastercard.png"
+                      src={MethodMastercard}
                       alt=""
                     />
-                    <img src="src/assets/Images/icons/Cart.png" alt="" />
+                    <img src={Cart} alt="" />
                   </div>
                 </div>
               </div>

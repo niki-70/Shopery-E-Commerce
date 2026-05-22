@@ -1,10 +1,12 @@
+import ProductImage from "../../assets/Images/productImg/Product Image.png";
+import Group20 from "../../assets/Images/icons/Group 20.png";
 function ProductModal() {
   return (
     <>
       <div className=" grid place-items-center m-10 ">
         <div className="flex bg-amber-100 rounded-2xl p-4">
           <div>
-            <img src="src/assets/Images/productImg/Product Image.png" alt="" />
+            <img src={ProductImage} alt="" />
           </div>
 
           <div className="p-10 ml-10">
@@ -122,7 +124,7 @@ function ProductModal() {
                     {" "}
                     Brand:{" "}
                   </p>
-                  <img src="src/assets/Images/icons/Group 20.png" alt="" />
+                  <img src={Group20} alt="" />
                 </div>
                 <div className="flex place-items-center">
                   <p>Share item:</p>

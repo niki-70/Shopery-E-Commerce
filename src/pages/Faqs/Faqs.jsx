@@ -1,3 +1,4 @@
+import faqs from "../../assets/Images/faqs.png";
 function Faqs() {
   return (
     <>
@@ -134,7 +135,7 @@ function Faqs() {
             </div>
           </div>
           <div>
-            <img className="h-180" src="src/assets/Images/faqs.png" alt="" />
+            <img className="h-180" src={faqs} alt="" />
           </div>
         </div>
       </div>

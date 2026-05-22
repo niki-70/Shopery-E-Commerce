@@ -1,4 +1,6 @@
 import { useCart } from "../../../context/CartContext";
+import Heart from "../../../assets/Images/icons/Heart.png";
+import Vector4 from "../../../assets/Images/icons/Vector (4).png";
 
 function ProductCard({ id, name, price, image }) {
   const { isInCart, toggleProduct } = useCart();
@@ -16,12 +18,12 @@ function ProductCard({ id, name, price, image }) {
           <div className="absolute top-2.5 right-0 opacity-0 transition-opacity duration-300 group-hover/card:opacity-100">
             <img
               className="rounded-6xl p-2.5 mt-1 block cursor-pointer"
-              src="src/assets/Images/icons/Heart.png"
+              src={Heart}
               alt=""
             />
             <img
               className="rounded-6xl p-2.5 mt-1 block cursor-pointer"
-              src="src/assets/Images/icons/Vector (4).png"
+              src={Vector4}
               alt=""
             />
           </div>

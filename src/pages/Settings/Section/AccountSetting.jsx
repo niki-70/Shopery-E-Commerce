@@ -1,3 +1,4 @@
+import profileImg1 from "../../../assets/Images/Profile/profileImg1.png";
 function AccountSetting() {
   return (
     <>
@@ -68,7 +69,7 @@ function AccountSetting() {
             <div className="flex flex-col items-center justify-center gap-4 mr-10">
               <img
                 className="w-40 h-40 rounded-full object-cover border"
-                src="src/assets/Images/Profile/profileImg1.png"
+                src={profileImg1}
                 alt=""
               />
 

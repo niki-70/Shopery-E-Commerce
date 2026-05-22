@@ -1,10 +1,14 @@
+import deliveryTruck from "../../../assets/Images/icons/deliveryTruck.png";
+import headphones from "../../../assets/Images/icons/headphones.png";
+import shoppingBag from "../../../assets/Images/icons/shoppingBag.png";
+import packageIcon from "../../../assets/Images/icons/package.png";
 function FeaturedServices() {
   return (
     <>
       <div className="featuredSec flex  m-auto  shadow-lg w-fit">
         <div className="featuredBox p-3 pt-8 pr-8 hover:bg-green-600 hover:text-white ">
           <div className="featuredIcon w-max pt-4 pr-2.5 pb-4 pl-2.5 rounded-full bg-white border border-gray-300">
-            <img className="w-10 h-9" src="src/assets/Images/icons/deliveryTruck.png" alt="" />
+            <img className="w-10 h-9" src={deliveryTruck} alt="" />
           </div>
           <div className="featuredInfo">
             <h4 className="font-bold ">Free Shipping</h4>
@@ -14,7 +18,7 @@ function FeaturedServices() {
 
         <div className="featuredBox p-3 pt-8 pr-8 hover:bg-green-600 hover:text-white">
           <div className="featuredIcon w-max pt-4 pr-2.5 pb-4 pl-2.5 rounded-full bg-white border border-gray-300">
-            <img className="w-10 h-9" src="src/assets/Images/icons/headphones.png" alt="" />
+            <img className="w-10 h-9" src={headphones} alt="" />
           </div>
 
           <div className="featuredInfo pb-5">
@@ -25,7 +29,7 @@ function FeaturedServices() {
 
         <div className="featuredBox p-3 pt-8 pr-8 hover:bg-green-600 hover:text-white">
           <div className="featuredIcon w-max pt-4 pr-2.5 pb-4 pl-2.5 rounded-full bg-white border border-gray-300">
-            <img className="w-10 h-9" src="src/assets/Images/icons/shoppingBag.png" alt="" />
+            <img className="w-10 h-9" src={shoppingBag} alt="" />
           </div>
 
           <div className="featuredInfo">
@@ -36,7 +40,7 @@ function FeaturedServices() {
 
         <div className="featuredBox p-3 pt-8 pr-8 hover:bg-green-600 hover:text-white">
           <div className="featuredIcon w-max pt-4 pr-2.5 pb-4 pl-2.5 rounded-full bg-white border border-gray-300">
-            <img className="w-10 h-9" src="src/assets/Images/icons/package.png" alt="" />
+            <img className="w-10 h-9" src={packageIcon} alt="" />
           </div>
 
           <div className="featuredInfo">

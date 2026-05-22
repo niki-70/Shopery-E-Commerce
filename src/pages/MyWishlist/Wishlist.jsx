@@ -1,4 +1,7 @@
 import Button from "../../components/common/Button/Button";
+import GreenCapsicum from "../../assets/Images/productImg/Green Capsicum.png";
+import ChineseCabbage from "../../assets/Images/productImg/Chinese Cabbage.png";
+import Mango from "../../assets/Images/productImg/Mango.png";
 
 function Wishlist() {
   return (
@@ -17,7 +20,7 @@ function Wishlist() {
           <div className="grid grid-cols-3 mx-10 my-2 items-center ">
             <div className="flex place-items-center">
               <img
-                src="src/assets/Images/productImg/Green Capsicum.png"
+                src={GreenCapsicum}
                 alt=""
               />
               <p className="text-lg">Green Capsicum</p>
@@ -78,7 +81,7 @@ function Wishlist() {
           <div className="grid grid-cols-3   my-2 mx-10 items-center ">
             <div className="flex place-items-center">
               <img
-                src="src/assets/Images/productImg/Chinese Cabbage.png"
+                src={ChineseCabbage}
                 alt=""
               />
               <p className="text-lg">Green Capsicum</p>
@@ -135,7 +138,7 @@ function Wishlist() {
 
           <div className="grid grid-cols-3  my-2 mx-10 items-center ">
             <div className="flex place-items-center">
-              <img src="src/assets/Images/productImg/Mango.png" alt="" />
+              <img src={Mango} alt="" />
               <p className="text-lg">Fresh Sujapuri Mango</p>
             </div>
 

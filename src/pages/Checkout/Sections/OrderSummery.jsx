@@ -1,3 +1,5 @@
+import GreenCapsicum1 from "../../../assets/Images/productImg/GreenCapsicum1.png";
+import RedCapsicum1 from "../../../assets/Images/productImg/RedCapsicum1.png";
 
 
 function OrderSummery() {
@@ -8,7 +10,7 @@ function OrderSummery() {
 
         <div className="flex justify-between place-items-center">
           <div className="flex place-items-center mr-25">
-            <img src="src/assets/Images/productImg/GreenCapsicum1.png" alt="" />
+            <img src={GreenCapsicum1} alt="" />
             <p>
               Green capsicum <span>x5</span>
             </p>
@@ -19,7 +21,7 @@ function OrderSummery() {
 
         <div className=" flex justify-between place-items-center mb-5">
           <div className="flex place-items-center">
-            <img src="src/assets/Images/productImg/RedCapsicum1.png" alt="" />
+            <img src={RedCapsicum1} alt="" />
             <p>
               Red capsicum <span>xl</span>
             </p>
